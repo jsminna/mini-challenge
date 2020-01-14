@@ -14,3 +14,8 @@ const findLongestWordLength = (str) => {
     return ''
   }
 }
+
+// Return an array consisting of the largest number from each provided sub-array
+const findLargestOfArrays = (arrays) => {
+  return arrays.map(subArr => Math.max(...subArr));
+}
