@@ -19,15 +19,9 @@ describe('findLargestOfArrays', () => {
   it('Test 1', () => {
     expect(findLargestOfArrays(arrOfFour)).to.have.ordered.members([4, 18, 12, 34])
   })
-})
-
-describe('findLargestOfArrays', () => {
   it('Test 2', () => {
     expect(findLargestOfArrays(arrOfThree)).to.have.ordered.members([2, 3, 4])
   })
-})
-
-describe('findLargestOfArrays', () => {
   it('Test 3', () => {
     expect(findLargestOfArrays(" ")).to.have.ordered.members([])
   })
