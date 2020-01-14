@@ -8,7 +8,7 @@
 
 ## Challenge 1: find longest word in a sentence
 In the challenge.js file, a function findLongestWordLength has been created.
-> Sample input1: findLongestWordLength("Javascript is a fun language")
+> Sample input1: findLongestWordLength("Javascript is a fun language")  
 > Expected output1: "Javascript"
 
 Sample input2: findLongestWordLength("solving problems is a good way to learn")
