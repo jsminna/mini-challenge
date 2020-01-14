@@ -12,10 +12,23 @@ describe('findLongestWordLength', () => {
     });
 });
 
-const arrOfFour = [[1,2,3,4], [5,18,0,12], [3,5,12,5], [28,9,2,34]];
+const arrOfFour   = [[1,2,3,4], [5,18,0,12], [3,5,12,5], [28,9,2,34]],
+      arrOfThree  = [[1, 2], [2, 3], [3, 4]]
 
 describe('findLargestOfArrays', () => {
   it('Test 1', () => {
     expect(findLargestOfArrays(arrOfFour)).to.have.ordered.members([4, 18, 12, 34])
+  })
+})
+
+describe('findLargestOfArrays', () => {
+  it('Test 2', () => {
+    expect(findLargestOfArrays(arrOfThree)).to.have.ordered.members([2, 3, 4])
+  })
+})
+
+describe('findLargestOfArrays', () => {
+  it('Test 3', () => {
+    expect(findLargestOfArrays(" ")).to.have.ordered.members([])
   })
 })
